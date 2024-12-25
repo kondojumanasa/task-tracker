@@ -1,0 +1,139 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:#ddd;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background-color:brown;
+  color: white;
+  padding: 10px 0;
+}
+
+header h1 {
+  margin: 0;
+  
+}
+
+.filter-tasks {
+  margin: 20px 0;
+}
+
+.filter-tasks label {
+  margin-right: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: white;
+  margin: 10px auto;
+  padding: 15px;
+  border: 1px solid #c78787;
+  border-radius: 5px;
+  max-width: 600px;
+  text-align: left;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  z-index: 1000;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal-content label {
+  font-weight: bold;
+}
+
+.modal-content input,
+.modal-content textarea,
+.modal-content select {
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: #28a745;
+}
+
+button[type="button"] {
+  background-color: #dc3545;
+}
+
+
+.TaskContainer {
+  margin: 20px;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color:white;
+}
+
+.task-table th,
+.task-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.task-table th {
+  background-color:darksalmon;
+}
+
+.Editbtn,
+.Deletebtn {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.Editbtn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.Deletebtn {
+  background-color: #f44336;
+  color: white;
+}
